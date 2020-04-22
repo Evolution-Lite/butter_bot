@@ -47,6 +47,9 @@ CONST = {
     # Chat configurations JSON files
     "F_CONF": "configs.json",
 
+    # Initial trigger char
+    "INIT_TRIGGER_CHAR" : "#",
+
     # Initial chat title at Bot start
     "INIT_TITLE": "Unknown Chat",
 
