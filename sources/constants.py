@@ -33,7 +33,7 @@ SCRIPT_PATH = path.dirname(path.realpath(__file__))
 CONST = {
 
     # Bot Token (get it from @BotFather)
-    "TOKEN": "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "TOKEN": "1267018744:AAFWJoWuRv6p-gZzlq9CJrZAjci3LXczy0E",
 
     # Languages texts files directory path
     "LANG_DIR": SCRIPT_PATH + "/language",
@@ -129,16 +129,4 @@ CONST = {
 # Supported languages list
 TEXT = {
     "EN": None, # English
-    "DE": None, # German
-    "FR": None, # French
-    "ID": None, # Indonesian
-    "IT": None, # Italian
-    "ES": None, # Spanish
-    "CA": None, # Catalan
-    "GL": None, # Galician
-    "EU": None, # Basque
-    "RU": None, # Rusian
-    "PT_BR": None, # Portuguese (Brasil)
-    #"FA": None, # Persian (The json file is broken or json parser library doesn't support it)
-    "ZH_CN": None # Chinese (Mainland)
 }
