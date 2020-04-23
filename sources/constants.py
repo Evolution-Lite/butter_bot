@@ -33,7 +33,7 @@ SCRIPT_PATH = path.dirname(path.realpath(__file__))
 CONST = {
 
     # Bot Token (get it from @BotFather)
-    "TOKEN": "1267018744:AAFWJoWuRv6p-gZzlq9CJrZAjci3LXczy0E",
+    "TOKEN": "1267018744:AAEKJARlzt6NvVIMBit7bh0KdEqM-EhXCXc",
 
     # Languages texts files directory path
     "LANG_DIR": SCRIPT_PATH + "/language",
@@ -116,7 +116,7 @@ CONST = {
     "DEVELOPER": "@JoseTLG",
 
     # Bot code repository
-    "REPOSITORY": "https://github.com/J-Rios/TLG_JoinCaptchaBot",
+    "REPOSITORY": "https://github.com/v1nc/v1nc_bot",
 
     # Developer Paypal address
     "DEV_PAYPAL": "https://www.paypal.me/josrios",
