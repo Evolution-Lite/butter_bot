@@ -33,7 +33,7 @@ SCRIPT_PATH = path.dirname(path.realpath(__file__))
 CONST = {
 
     # Bot Token (get it from @BotFather)
-    "TOKEN": "1267018744:AAEKJARlzt6NvVIMBit7bh0KdEqM-EhXCXc",
+    "TOKEN": "xxx",
 
     # Languages texts files directory path
     "LANG_DIR": SCRIPT_PATH + "/language",
@@ -61,6 +61,9 @@ CONST = {
 
     # Initial enable/disable status at Bot start
     "INIT_ENABLE": True,
+
+    # Initial welcome message
+    "INIT_WELCOME_MSG" : "Welcome {1}({0}/{2})!",
 
     # Initial captcha solve time (in minutes)
     "INIT_CAPTCHA_TIME_MIN": 5,
