@@ -119,7 +119,7 @@ CONST = {
     "DEVELOPER": "@JoseTLG",
 
     # Bot code repository
-    "REPOSITORY": "https://github.com/v1nc/v1nc_bot",
+    "REPOSITORY": "https://github.com/v1nc/butter_bot",
 
     # Developer Paypal address
     "DEV_PAYPAL": "https://www.paypal.me/josrios",
