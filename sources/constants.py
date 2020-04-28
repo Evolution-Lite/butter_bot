@@ -33,7 +33,7 @@ SCRIPT_PATH = path.dirname(path.realpath(__file__))
 CONST = {
 
     # Bot Token (get it from @BotFather)
-    "TOKEN": "xxx",
+    "TOKEN": "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 
     # Languages texts files directory path
     "LANG_DIR": SCRIPT_PATH + "/language",
@@ -46,6 +46,9 @@ CONST = {
 
     # Chat configurations JSON files
     "F_CONF": "configs.json",
+
+    # Private chat valid captcha time in minutes
+    "VALID_CAPTCHA_TIME" : 10,
 
     # Initial trigger char
     "INIT_TRIGGER_CHAR" : "#",
@@ -63,7 +66,7 @@ CONST = {
     "INIT_ENABLE": True,
 
     # Initial welcome message
-    "INIT_WELCOME_MSG" : "Welcome {1}({0}/{2})!",
+    "INIT_WELCOME_MSG" : "Welcome {1}!\n\nUsername: {0}\nUser-ID: {2}",
 
     # Initial captcha solve time (in minutes)
     "INIT_CAPTCHA_TIME_MIN": 5,
@@ -102,18 +105,7 @@ CONST = {
 
     # List string of supported languages commands shows in invalid language set
     "SUPPORTED_LANGS_CMDS": \
-        "\nEnglish / English\n/language en\n" \
-        "\nSpanish / Español\n/language es\n" \
-        "\nFrench / Francais\n/language fr\n" \
-        "\nGerman / Deutch\n/language de\n" \
-        "\nItalian / Italiano\n/language it\n" \
-        "\nRussian / Pусский\n/language ru\n" \
-        "\nIndonesian / Indonesia\n/language id\n" \
-        "\nCatalan / Català\n/language ca\n" \
-        "\nBasque / Euskal\n/language eu\n" \
-        "\nGalician / Galego\n/language gl\n" \
-        "\nPortuguese-Brazil / Português-Brasil\n/language pt_br\n" \
-        "\nChinese-Simplified / 中文\n/language zh_cn",
+        "\nEnglish / English\n/language en\n",
 
     # Bot developer
     "DEVELOPER": "@JoseTLG",
