@@ -107,8 +107,11 @@ CONST = {
     "SUPPORTED_LANGS_CMDS": \
         "\nEnglish / English\n/language en\n",
 
+    # Orginal Bot developer
+    "ORG_DEVELOPER": "@JoseTLG",
+
     # Bot developer
-    "DEVELOPER": "@JoseTLG",
+    "DEVELOPER": "@v_1nc",
 
     # Bot code repository
     "REPOSITORY": "https://github.com/v1nc/butter_bot",
