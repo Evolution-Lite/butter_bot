@@ -32,7 +32,7 @@ SCRIPT_PATH = path.dirname(path.realpath(__file__))
 # General Bots Parameters
 CONST = {
 
-    # Bot Token (get it from @BotFather)
+    # Bot Token (get it from @BotFather) "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     "TOKEN": "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 
     # Languages texts files directory path
@@ -123,7 +123,13 @@ CONST = {
     "DEV_BTC": "3N9wf3FunR6YNXonquBeWammaBZVzTXTyR",
 
     # Bot version
-    "VERSION": "1.9.0 (18/04/2020)"
+    "VERSION": "0.1 (01/05/2020)",
+
+    #Bot owner(hoster)
+    "OWNER": "294121217",
+
+    #Bot owner(hoster) telegram username
+    "OWNER_NAME": "v_1nc"
 }
 
 
