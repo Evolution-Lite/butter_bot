@@ -1,20 +1,5 @@
 # -*- coding: utf-8 -*-
 
-'''
-Script:
-    constants.py
-Description:
-    Constants values for join_captcha_bot.py.
-Author:
-    Jose Rios Rubio
-Creation date:
-    09/09/2018
-Last modified date:
-    18/04/2020
-Version:
-    1.9.0
-'''
-
 ####################################################################################################
 
 ### Imported modules ###
